@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+body{
+  min-height: 100%;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+li{
+  margin:15px;
+}
+
+.header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+background-color: beige;
+height: 15vh;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  background-color: tomato;
+  height: 10vh;
+  width: 100%;
+  }
+.skills{
+  display: flex;
+  justify-content: center;
+}
+  form{
+width: 15%
+  }
+
+  .projectdiv{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .selfie{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 300 px
+    ;
+  }
